@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import { models } from "mongoose";
 
 export default function Home({ stock }) {
 
